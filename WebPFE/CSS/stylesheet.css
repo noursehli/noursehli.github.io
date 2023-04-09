@@ -1,0 +1,137 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Mukta:wght@200&display=swap');
+
+/* Define custom font */
+@font-face {
+  font-family: 'Lastica';
+  src: url('Lastica/lastica.ttf') format('truetype');
+}
+
+/* Body styles */
+body {
+  font-family: 'Lastica', sans-serif;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+}
+
+/* Title styles */
+.titre {
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+.titre h1 {
+  
+  color: #ffffff;
+  /* margin-top: 50px; */
+}
+
+.titre h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Image styles */
+.image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Content styles */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+h2 {
+  
+  color: #d73cbe;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p  {
+  font-size:40px;
+  color: #ffffff;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+
+
+
+/* Button styles */
+button {
+  background-color: #2c1e4a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #523c7d;
+}
+
+
+
+/* .contact-info h4 {
+  margin-bottom: 5px;
+} */
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media h4 {
+  margin-right: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.image-footer {
+  width: 200px;
+  text-align: right;
+}
+
+.image-footer img {
+  max-width: 100%;
+}
+
+.box1, .box2 {
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
